@@ -1,9 +1,0 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Toplevel TestNG configuration" verbose="10">
-  <test name="all">
-    <classes>
-      <class name=".*" />
-    </classes>
-  </test>
-</suite>
-
