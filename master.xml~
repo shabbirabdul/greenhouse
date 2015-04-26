@@ -2,7 +2,7 @@
 <suite name="Toplevel TestNG configuration" verbose="10">
   <test name="all">
     <classes>
-      <class name="client.TestHome" />
+      <class name=".*" />
     </classes>
   </test>
 </suite>
