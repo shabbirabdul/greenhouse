@@ -1,13 +1,15 @@
+
+
 package client;
 
 import static org.junit.Assert.fail;
 
 import java.net.URL;
 
-import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.Test;
 
 public class TestHome {
 	
@@ -17,7 +19,6 @@ public class TestHome {
 			WebDriver driver = new RemoteWebDriver(local, DesiredCapabilities.chrome());
 			// open the browser and go to home page of the application
 			driver.get("http://localhost:18080/mywebapp/");
-			System.out.println(driver.getPageSource().length());
 			// wait 5 seconds and close the browser
 			Thread.sleep(5000);
 			if(driver.getPageSource().length()!=1856)
