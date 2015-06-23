@@ -15,7 +15,7 @@
  */
 package com.springsource.greenhouse.account;
 
-import java.io.Serializable;
+import java.io.Seriale;
 
 import org.springframework.web.util.UriTemplate;
 
